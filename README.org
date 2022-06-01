@@ -1,0 +1,36 @@
+#+title: jdos-repo
+#+author: Jom Dollesin
+
+* About jdos-repo
+
+[[https://raw.githubusercontent.com/codewithjom/jdos-repo/master/.config/qtile/scripts/.jdos.jpg]]
+
+The jdos-repo contains a bunch of custom configurations of many programs installed in the post-installation script of [[https://github.com/codewithjom/jdos][JDOS]]. I highly suggest to run the script of JDOS rather than copying/cloning jdos-repo to your ArchLinux or any ArchLinux based distro.
+
+=NOTE=: Run the [[https://github.com/codewithjom/jdos][JDOS]] script to install the dependencies of these programs!
+
+* Programs of JDOS
+
+The following are the lists of programs:
+
+- jdos-alacritty
+- jdos-betterlockscreenrc
+- jdos-dunst
+- jdos-emacs
+- jdos-fish
+- jdos-mpv
+- jdos-nvim
+- jdos-picom
+- jdos-qtile
+- jdos-qutebrowser
+- jdos-rofi
+- jdos-starship.toml
+- jdos-vimb
+
+To update the configurations =JDOS= run this command in your terminal:
+
+#+begin_src sh
+
+  jdos-update
+
+#+end_src

@@ -16,6 +16,6 @@ xsetroot -cursor_name left_ptr &
 pamac-tray &
 blueberry-tray &
 
+# If you are using SDDM, LIGHTDM, GDM, etc. please DO NOT remove the last comment.
 # Remove the comment below if you want to run the .xinitrc file
-# If you are using SDDM, LIGHTDM, GDM, etc. please DO NOT remove the comment below.
 # exec qtile start

@@ -2,7 +2,12 @@
 
 conky -c $HOME/.config/qtile/scripts/conkyrc &
 sxhkd -c ~/.config/qtile/scripts/sxhkdrc &
-nitrogen --set-scaled --restore &
+
+# I use nitrogen for wallpaper!
+# Choose only 1
+
+# nitrogen --set-scaled --restore
+nitrogen --set-scaled $HOME/.config/qtile/scripts/wall_8.jpg &
 
 lxsession &
 picom --experimental-backends -b &
